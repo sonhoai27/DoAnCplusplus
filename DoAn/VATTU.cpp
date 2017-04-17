@@ -1,5 +1,5 @@
 ﻿#include "VATTU.h"
-void VATTU::gotoxy_VATTU(short x, short y)
+void VATTU::gotoxy(short x, short y)
 {
 	HANDLE hConsoleOutput;
 	COORD Cursor_an_Pos = { x,y };
@@ -24,13 +24,13 @@ void VATTU::Nhap() {
 }
 
 void VATTU::Xuat() {
-	gotoxy_VATTU(61, 12);
+	gotoxy(61, 12);
 	cout << MaVT;
-	gotoxy_VATTU(75 + 2, 12);
+	gotoxy(75 + 2, 12);
 	cout << TenVT;
-	gotoxy_VATTU(60 + 90 - 1 - 10 - 10 - 1, 12);
+	gotoxy(60 + 90 - 1 - 10 - 10 - 1, 12);
 	cout << DVT;
-	gotoxy_VATTU(60 + 90 - 1 - 10, 12);
+	gotoxy(60 + 90 - 1 - 10, 12);
 	cout << SoLuongTon;
 }
 

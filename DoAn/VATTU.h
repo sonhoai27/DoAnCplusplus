@@ -16,7 +16,7 @@ class VATTU
 private:
 	string DVT, TenVT, MaVT;
 	int SoLuongTon;
-	void gotoxy_VATTU(short x, short y);
+	void gotoxy(short x, short y);
 public:
 	void Nhap();
 	void Xuat();

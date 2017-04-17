@@ -1,3 +1,11 @@
-﻿  HOADON.cpp
-  DoAn.vcxproj -> C:\Users\sonla\Desktop\DoAn\DoAn\x64\Debug\DoAn.exe
-  DoAn.vcxproj -> C:\Users\sonla\Desktop\DoAn\DoAn\x64\Debug\DoAn.pdb (Full PDB)
+﻿  VATTU.cpp
+  Nodes_DSHOADON.h
+  So Sanh Chuoi Quick Sort.cpp
+  main.cpp
+  HOADON.cpp
+c:\users\huynh phu\desktop\new folder\doancplusplus\doan\hoadon.cpp(34): error C2039: 'SetBGColor': is not a member of 'HOADON'
+  c:\users\huynh phu\desktop\new folder\doancplusplus\doan\hoadon.h(5): note: see declaration of 'HOADON'
+  DS_VATTU.cpp
+  DS_HOADON.cpp
+c:\users\huynh phu\desktop\new folder\doancplusplus\doan\ds_hoadon.cpp(115): warning C4804: '>': unsafe use of type 'bool' in operation
+  Generating Code...

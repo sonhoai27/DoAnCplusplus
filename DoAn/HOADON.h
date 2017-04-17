@@ -6,10 +6,10 @@ class HOADON
 private:
 	int NgHienTai();
 	void SetBGColor_HOADON(WORD color);
-	void gotoxy_HOADON(short x, short y);
+	void gotoxy(short x, short y);
 	void VeMau();
 	void coutChar(int code);
-	void SetColor_HOADON(WORD color);
+	void SetColor(WORD color);
 public:
 	int SoHD, NgLapHD;
 	char Loai;

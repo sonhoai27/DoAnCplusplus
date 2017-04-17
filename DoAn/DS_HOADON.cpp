@@ -109,12 +109,7 @@ void DS_HOADON::XuLyHOADON()
 											}
 										}
 									}
-									SoLuongMuonLay = atoi(tempSLML.c_str()); //chuyen tu string to number
-
-									//thông báo cho người dùng biết là lấy ra số lượng trong kho
-									if (SoLuongMuonLay > SoLuongMuonLay > KhoXuLy->node[ViTriTrongKho].getSLT()) {
-										cout << "\nBan lay vuot qua so luong trong kho";
-									}
+									
 
 								} while (SoLuongMuonLay > KhoXuLy->node[ViTriTrongKho].getSLT() || SoLuongMuonLay == 0); //kiem tra SoLUongMuonLay nhap vao co be hon hoac bang so luong co trong kho khong
 								
